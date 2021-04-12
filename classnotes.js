@@ -47,3 +47,12 @@ All Tags Names:
 <select>
 <option>
 
+
+
+<head>
+  <title>
+  <meta>
+  <link>
+  <style>
+  <script>
+</head>
