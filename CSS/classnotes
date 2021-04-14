@@ -1,0 +1,33 @@
+1. Reusability
+2. Readability
+3. Modularity 
+
+
+---------------------------------
+CSS - Cascading Style sheet 
+     brinding/rendering
+     .css 
+     sytle - global html attribute 
+
+Main Adv of CSS - Style Reusability 
+
+Program - code Reusability 
+-------------------------------------
+
+4.Flexibility 
+5.Portability
+
+
+6.Global Change - changing one place , it reflect all your web pages 
+
+7. We are apply CSS into your web page - 3 ways 
+
+1. Inline CSS                         - Tag Level 
+2. Internal CSS/ Embeded CSS          - Page 
+3. External CSS                       - Application Level 
+
+
+
+
+
+Nearest Style has - highest Prority
