@@ -3,7 +3,8 @@ var emp_Name = "Kavitha";
 var is_Avial = true;
 var salary = 58000.5;
 
-var size = [38, 40, 42, 44];
+var size = [38, 40, 42, 44, 46];
+
 var emp = {};
 
 /*
