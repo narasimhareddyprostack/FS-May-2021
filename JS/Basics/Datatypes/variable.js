@@ -16,4 +16,4 @@ var emp = {};
     4. null
     5. undefined
     6. symbol
-    */
+*/
