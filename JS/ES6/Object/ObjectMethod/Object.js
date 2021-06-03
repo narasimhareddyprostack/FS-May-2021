@@ -5,6 +5,6 @@ let obj = {
 console.log(obj);
 //Object not allowed duplicate keys
 
-let size = [38, 38, 39];
+let size = [38, 38, 39, 40];
 console.log(size);
 // array allows duplicate
