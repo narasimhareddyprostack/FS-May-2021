@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Javascript Events</h1>
+    <button
+      ondblclick="getLogin()"
+      onclick="loginDetails()"
+      onmouseover="buttonmouse()"
+    >
+      Login
+    </button>
+    <button ondblclick="getDownload()">Download</button>
+    <hr />
+    <img
+      src="./just.jpeg"
+      height="50%"
+      width="500px"
+      onmouseout="getSmallImage()"
+    />
+  </body>
+  <script>
+    function loginDetails() {
+      alert("Login Successfull");
+    }
+    function getDownload() {
+      alert("Download Successfull");
+    }
+    function getSmallImage() {
+      alert("Small Image");
+    }
+    function getLogin() {
+      alert("Button level - dbl click");
+    }
+    function buttonmouse() {
+      console.log("Mouse over to button");
+    }
+  </script>
+</html>
