@@ -5,9 +5,7 @@ class CentralTax {
     return this.tax - discount;
   };
 }
-
 class Goa extends CentralTax {}
-
 let g = new Goa();
 console.log(g.tax);
 console.log(g.get_CentralTax());
