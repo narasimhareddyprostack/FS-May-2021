@@ -1,0 +1,17 @@
+ES6 - Featues 
+-------------
+let , const 
+function - fat Arrow, call back , async & Await, promises, closure
+object - class, import/export - named import , named export 
+       - Object Destructure 
+
+Array Supporting functing 
+   - array.map(()=>{})
+   - array.forEach(()=>{})
+   - array.reduce(()=>{})
+
+Spread op, rest operator 
+Template Literal String - `${}`  - Develoeper / URL's 
+
+
+
