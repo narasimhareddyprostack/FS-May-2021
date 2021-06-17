@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>ES6 - Array Supporting Methods</h1>
+
+    <p id="abc"></p>
+    <p id="xyz"></p>
+  </body>
+  <script>
+    let shirts = [
+      { productName: "shirtOne", size: 40, price: 500 },
+      { productName: "shirtTwo", size: 42, price: 600 },
+      { productName: "shirtThree", size: 40, price: 700 },
+      { productName: "shirtFour", size: 42, price: 1100 },
+      { productName: "shirtFive", size: 44, price: 900 },
+    ];
+
+    shirts.forEach(getProductName);
+    var result = "...";
+    function getProductName(value, index, array) {
+      result = +value.productName;
+    }
+    console.log(result, ".....");
+    document.getElementById("abc").innerHTML = shirts;
+    document.getElementById("xyz").innerHTML = result;
+  </script>
+</html>
