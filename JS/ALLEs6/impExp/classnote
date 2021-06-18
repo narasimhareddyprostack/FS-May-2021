@@ -1,0 +1,24 @@
+Named Exports
+   -- export multiple values 
+ES6
+----------
+export { a,b,c }
+
+import { a,b,c } from './filename'
+------------------------------
+ES 5
+module.export = {a,b,c }
+const {a,b}  = require('./filename')
+
+
+
+Default Export :
+---------------
+ - Export a Single Value 
+ Syntax 
+    export default a;
+
+ - import a single value 
+
+   import a from './filename' 
+   import abc from '/filename'  - alias name

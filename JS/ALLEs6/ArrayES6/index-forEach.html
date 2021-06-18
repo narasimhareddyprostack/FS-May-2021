@@ -10,6 +10,7 @@
 
     <p id="abc"></p>
     <p id="xyz"></p>
+    <p id="one"></p>
   </body>
   <script>
     let shirts = [
@@ -19,14 +20,14 @@
       { productName: "shirtFour", size: 42, price: 1100 },
       { productName: "shirtFive", size: 44, price: 900 },
     ];
-
-    shirts.forEach(getProductName);
-    var result = "...";
-    function getProductName(value, index, array) {
-      result = +value.productName;
+    var result = "";
+    let newArray = shirts.map(myFun);
+    function myFun(value, index) {
+      result += value.productName + "index:" + index + "<br/>";
     }
-    console.log(result, ".....");
-    document.getElementById("abc").innerHTML = shirts;
+
+    document.getElementById("abc").innerHTML = JSON.stringify(shirts);
     document.getElementById("xyz").innerHTML = result;
+    document.getElementById("one").innerHTML = newArray;
   </script>
 </html>
