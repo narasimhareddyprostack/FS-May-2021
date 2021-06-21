@@ -1,0 +1,65 @@
+Angular Framework --> Complete Application Development
+
+          --> Design, Dynamic, Routing, HTTP Call 
+		      CLI , Component, Inbuild 
+
+React Js Library --> simple .Js files. 
+
+            Design, Dynamic UI  
+			
+			
+            3rd party Library/Packages
+	
+React Js - A JS library for building User Interfaces 
+
+-- Open Source library  + Routing, HTTP Call, SSR 
+-- Next.js   -framwork 
+-- Gatby
+
+-- Backed by Facebook 
+-- Rich eco system (community)
+
+Road Map 
+--------
+JS Es6
+
+React Installation  - 3 ways 
+ - https://create-react-app.dev/
+React Application Folder Structure 
+Component Deep Drive 
+	-- Inheritance (JS)
+What JSX ?  JS DOM 
+Class vs function 
+
+Props & State   - 50 % 
+ -Class to class
+ -class to function
+ -function to class 
+ -f to f 
+-----------------------
+How to enable bootsrap ?
+Event Handling & Event Binding
+React Form Handling 
+React Rendering & List Rendering - key 
+React Component Life Cycle Method
+React Routing     - react-router-dom
+React HTTP Calls  - Axios , Fetch API   
+React State & Props 
+React Hooks 
+      - 10 
+React State Management
+  - Redux 
+React Hook form 
+
+
+		  
+		  
+<html>
+	<head>
+	</head>
+	<body>
+	</body>
+	<script>
+		//JS
+	</script>
+</hmtl>
