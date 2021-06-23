@@ -63,3 +63,51 @@ React Hook form
 		//JS
 	</script>
 </hmtl>
+
+
+--------------------------
+What is React Componet?
+  - describe User Interface(UI)
+  
+HTML  - Tags/Element or Attributes 
+
+JS   - variable, function, class, object 
+
+App.js 
+Test.js    - 
+index.html  - allows only tags  
+
+.jsx - Javascript Extension Syntax - html and javascript 
+     - writing HTML tags inside javascript
+
+React has - auto save/hot reloading fecility 
+
+
+
+HTML Element - collection tags 
+
+--------------------------
+function App(){
+
+return <h1>Hello, GM</h1>
+}
+export default App;
+-----------------------------
+class Component{
+
+render(){}
+componentDidMount()
+componentWillUmmount()
+componentWillUpdate()
+}
+
+class App extends Component{
+//allowed only properties and methods 
+	render(){
+	retunr "Hello"
+	}
+}
+export default App
+
+
+

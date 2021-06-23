@@ -1,14 +1,18 @@
 import React from "react";
 
-function App() {
-  return (
-    <div>
-      <h1>Hello, GM</h1>
-      <h1>React Basics</h1>
-      <h1>React Basics</h1>
-      <h1>React Basics</h1> <h1>React Basics</h1> <h1>React Basics</h1>
-    </div>
-  );
-}
+import Navbar from "./Navbar";
+import Card from "./Card";
+class App extends React.Component {
+  render() {
+    return (
+      <section>
+        <h1>Hello, GM</h1>
+       
 
+        <Navbar />
+        <Card />
+      </section>
+    );
+  }
+}
 export default App;
