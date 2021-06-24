@@ -101,6 +101,7 @@ componentWillUmmount()
 componentWillUpdate()
 }
 
+import React from 'react'
 class App extends Component{
 //allowed only properties and methods 
 	render(){
@@ -110,4 +111,18 @@ class App extends Component{
 export default App
 
 
+
+------------------------------------------------------------
+JSX - Javascript Extension
+-- allows HTML inside Javascript 
+
+
+=========================================
+If you want to return multiple tags , just reqired <></>
+<div></div>
+<></>  - empty fragment
+<React.Fragment></React.Fragment>
+<Fragment></Fragment>
+--------------------------------------------------------
+bootstrap - how to enable bootsrap in react application.
 

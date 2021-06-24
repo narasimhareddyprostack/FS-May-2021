@@ -1,18 +1,16 @@
-import React from "react";
-
-import Navbar from "./Navbar";
-import Card from "./Card";
-class App extends React.Component {
-  render() {
-    return (
-      <section>
-        <h1>Hello, GM</h1>
-       
-
-        <Navbar />
-        <Card />
-      </section>
-    );
-  }
-}
+import Message from "./components/Message/Message";
+import "./assets/css/kgf.css";
+import Navbar from "./components/Navbar/Navbar";
+import Counter from "./components/Counter/Counter";
+let App = () => {
+  return (
+    <>
+      <Navbar />
+      <hr />
+      <Message />
+      <hr />
+      <Counter />
+    </>
+  );
+};
 export default App;
