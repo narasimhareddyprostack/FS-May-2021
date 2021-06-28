@@ -3,7 +3,7 @@ function Navbar() {
     <>
       <nav className="navbar navbar-dark bg-dark">
         <a href="/" className="navbar-brand">
-          React - Component Deep Drive
+          React - Props
         </a>
       </nav>
     </>

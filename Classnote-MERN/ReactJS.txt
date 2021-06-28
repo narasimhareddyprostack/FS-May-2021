@@ -125,4 +125,19 @@ If you want to return multiple tags , just reqired <></>
 <Fragment></Fragment>
 --------------------------------------------------------
 bootstrap - how to enable bootsrap in react application.
+==========================================================
+<h1 class="abc">Hello, GM</h1>
+
+
+<h1 className="abc">Hello, GM</h1>
+
+class  ------------ className 
+
+
+onclick  --------- onClick 
+onmouseover ------ onMouseOver
+
+
+
+
 
