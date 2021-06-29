@@ -1,11 +1,14 @@
 import "./assets/css/kgf.css";
 import Navbar from "./components/Navbar/Navbar";
-import CompA from "./PropsEx/CompA";
+import Product from "./PropsExOne/Product";
+import ProductData from "./StateEx/Product";
 let App = () => {
   return (
     <>
       <Navbar />
-      <CompA />
+
+      <Product />
+      <ProductData />
     </>
   );
 };
