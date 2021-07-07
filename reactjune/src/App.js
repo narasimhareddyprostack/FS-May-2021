@@ -1,16 +1,18 @@
 import React from "react";
-/* import Wish from "./EventHandling/Wish";
-import Salary from "./EventHandling/Salary"; */
 import "../node_modules/bootstrap/dist/css/bootstrap.css";
-import SalaryUI from "./EventHandling/SalaryUI";
+//import Login from "./FormHandling/Login";
+//import Registration from "./FormHandling/Registration";
+import Signin from "./FormHandling/Signin";
 function App() {
   return (
-    <div>
-      <h1>Event EventHandling</h1>
-
-      <hr />
-      <SalaryUI />
-    </div>
+    <>
+      <nav className="navbar navbar-dark bg-dark">
+        <a href="/" className="navbar-brand">
+          React -Form Handling
+        </a>
+      </nav>
+      <Signin />
+    </>
   );
 }
 

@@ -1,0 +1,13 @@
+React Form Handling 
+---------------------------
+Form Element 
+    - <input>
+    - <textarea>
+    - <select> typically its maintain their own state and update it based on user input
+
+React Form 
+ - state = {}
+ - setState({})
+ controlled component Manner 
+ 
+
