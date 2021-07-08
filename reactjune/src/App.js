@@ -1,8 +1,10 @@
 import React from "react";
 import "../node_modules/bootstrap/dist/css/bootstrap.css";
-//import Login from "./FormHandling/Login";
-//import Registration from "./FormHandling/Registration";
-import Signin from "./FormHandling/Signin";
+/* import Signup from "./FormHandling/Signup";
+import SMSApp from "./FormHandling/SMSApp";
+
+*/
+import ShowPassword from "./FormHandling/ShowPassword";
 function App() {
   return (
     <>
@@ -11,7 +13,7 @@ function App() {
           React -Form Handling
         </a>
       </nav>
-      <Signin />
+      <ShowPassword />
     </>
   );
 }

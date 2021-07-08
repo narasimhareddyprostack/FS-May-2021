@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 /* import Address from "./StateEx3/Address";
 import Product from "./StateEx3/Product";
- */
+
 import Mobile from "./StateEx3/Mobile";
+ */
 class App extends Component {
   render() {
     return (
