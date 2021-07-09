@@ -1,21 +1,20 @@
-import React from "react";
-import "../node_modules/bootstrap/dist/css/bootstrap.css";
-/* import Signup from "./FormHandling/Signup";
-import SMSApp from "./FormHandling/SMSApp";
-
-*/
-import ShowPassword from "./FormHandling/ShowPassword";
-function App() {
-  return (
-    <>
-      <nav className="navbar navbar-dark bg-dark">
-        <a href="/" className="navbar-brand">
-          React -Form Handling
-        </a>
-      </nav>
-      <ShowPassword />
-    </>
-  );
+import React, { Component } from "react";
+import Employee from "./Render/Employee";
+import Profile from "./Render/Profile";
+class App extends Component {
+  render() {
+    return (
+      <div>
+        <nav className="navbar navbar-dark bg-dark">
+          <a href="/" className="navbar-brand">
+            React -List Rendering & Conditional Rendering
+          </a>
+        </nav>
+        <Profile />
+        <Employee />
+      </div>
+    );
+  }
 }
 
 export default App;
