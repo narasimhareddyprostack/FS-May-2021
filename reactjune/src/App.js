@@ -10,6 +10,7 @@ import Signup from "./FormHandling/Signup";
 import Signin from "./FormHandling/Signin";
 import About from "./Routing/About";
 import Navbar from "./Routing/Navbar";
+import ContactApp from "./HTTPEX/ContactApp";
 
 class App extends Component {
   render() {
@@ -23,9 +24,11 @@ class App extends Component {
               <About />
             </Route>
             <Route exact path="/login" component={Signin} />
-            <Route exact path="/user" component={User} />
+            <Route exact path="/contactapi" component={ContactApp} />
+            {/*  <Route exact path="/user" component={User} />
             <Route exact path="/user/details" component={UserDetails} />
-            <Route exact path="/data" component={Employee} />
+            <Route exact path="/data" component={Employee} /> */}
+
             <Route exact path="/contact" component={Signup} />
           </Switch>
         </Router>
