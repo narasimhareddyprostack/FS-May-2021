@@ -1,17 +1,7 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-
-import Employee from "./Render/Employee";
-import User from "./Render/Employee";
-import UserDetails from "./FormHandling/ShowPassword";
-
-import Home from "./Routing/Home";
-import Signup from "./FormHandling/Signup";
-import Signin from "./FormHandling/Signin";
-import About from "./Routing/About";
-import Navbar from "./Routing/Navbar";
-import ContactApp from "./HTTPEX/ContactApp";
-
+import Navbar from "./ContactApp/Navbar";
+import ContactApp from "./ContactApp/ContactApp";
 class App extends Component {
   render() {
     return (
@@ -19,17 +9,7 @@ class App extends Component {
         <Router>
           <Navbar />
           <Switch>
-            <Route exact path="/home" component={Home} />
-            <Route exact path="/about">
-              <About />
-            </Route>
-            <Route exact path="/login" component={Signin} />
-            <Route exact path="/contactapi" component={ContactApp} />
-            {/*  <Route exact path="/user" component={User} />
-            <Route exact path="/user/details" component={UserDetails} />
-            <Route exact path="/data" component={Employee} /> */}
-
-            <Route exact path="/contact" component={Signup} />
+            <Route exact path="/contact" component={ContactApp} />
           </Switch>
         </Router>
       </>
