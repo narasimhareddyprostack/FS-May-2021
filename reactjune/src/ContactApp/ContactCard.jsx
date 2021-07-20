@@ -10,7 +10,9 @@ class ContactCard extends Component {
             <p className="h3">Contact Details</p>
           </div>
           <div className="card-header">
-            <img src={contact.picture.large} alt="Test" />
+            <div className="align-center">
+              <img src={contact.picture.large} alt="Test" />
+            </div>
           </div>
           <div className="card-body">
             {/*  <pre>{JSON.stringify(contact)}</pre> */}
