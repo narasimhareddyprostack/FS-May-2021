@@ -6,10 +6,11 @@ class Counter extends R.C {
       counter: 0,
     };
   }
+  
   updateHandler = () => {
     this.setState({ counter: this.state.counter + 1 });
   };
-
+  
   render() {
     return <></>;
   }

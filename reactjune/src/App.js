@@ -1,20 +1,22 @@
 import React from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Counter from "./Hooks/Counter";
-import Message from "./Hooks/Message";
+import Navbar from "./Hooks/Navbar";
 import Product from "./Hooks/Product";
+import Registration from "./Hooks/Registration";
+import DigtalClock from "./Hooks/DigtalClock";
 let App = () => {
   return (
     <>
-      <nav className="navbar navbar-dark bg-dark">
-        <a href="/" className="navbar-brand">
-          React -Hooks
-        </a>
-      </nav>
-      <Counter />
-      <hr />
-      <Message />
-      <hr />
-      <Product />
+      <Router>
+        <Navbar />
+        <Switch>
+          <Route exact path="/counter" component={Counter} />
+          <Route exact path="/product" component={Product} />
+          <Route exact path="/reg" component={Registration} />
+          <Route exact path="/digital" component={DigtalClock} />
+        </Switch>
+      </Router>
     </>
   );
 };
