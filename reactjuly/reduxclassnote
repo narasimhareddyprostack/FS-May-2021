@@ -1,0 +1,33 @@
+React View --> Action --> Reducer -->Store -->REact View 
+
+
+1) React View(Component) dispatch an action.
+2) Action -- invokes Reducer(pure function)
+3) Reducer update/create new Store based on Action types 
+4) Store update  reflect back view 
+
+Required Package 
+
+redux 
+react-redux    
+redux-dev-tools-extension
+>npm i redux react-redux redux-devtools-extension
+
+1)Create React View - Component
+2)create Redux Action 
+3)create Reducer(pure function(state, action))
+4)rootReuder.js  - for multiple reducer
+5)store.js   
+6)Update App.js - provide store to all required comp
+
+
+store 
+
+{
+counter:{counter:0}
+message:{message:"Hello"}
+auth:{
+    user:null,
+    profles:[]
+}
+}
