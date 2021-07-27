@@ -35,6 +35,11 @@ class Navbar extends React.Component {
               Redux - Counter
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link to="/product" className="nav-link">
+                  Product Item
+                </Link>
+              </li>
             </ul>
           </div>
         </nav>

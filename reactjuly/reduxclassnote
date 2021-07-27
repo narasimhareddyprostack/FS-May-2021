@@ -16,8 +16,8 @@ redux-dev-tools-extension
 1)Create React View - Component
 2)create Redux Action 
 3)create Reducer(pure function(state, action))
-4)rootReuder.js  - for multiple reducer
-5)store.js   
+4)rootReuder.js  - for multiple reducer(combineReducer )
+5)store.js   - createStore()   - from react-redux 
 6)Update App.js - provide store to all required comp
 
 
