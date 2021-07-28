@@ -7,7 +7,7 @@ import DigitalClock from "./Hooks/DigitalClock";
 import Message from './RComponents/Message'
 import Product from './Product/Product'
 import {Provider} from 'react-redux'
-
+import Register from './Hooks/Register'
 import Counter from './RComponents/Counter'
 import {store} from './redux/store'
 
@@ -24,6 +24,7 @@ let App = () => {
           <Route exact path="/message" component={Message} />
           <Route exact path="/counter" component={Counter}/>
           <Route exact path="/product" component={Product}/>
+          <Route exact path="/hook" component={Register}/>
         </Switch>
       </Router>
       </Provider>

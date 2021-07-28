@@ -1,0 +1,34 @@
+Reac Hooks 
+----------------
+useState
+useEffect
+useReducer  - complete State management
+
+useRef - ref dom element 
+useMemo 
+
+useState - what is ?
+---------------------
+to update functional component State 
+
+let [variable, setVariable] = useState(intialState);
+let [state setState] = useState(intialState);
+
+initlaState might be - number/string/ array/objec/boolean
+
+
+useEffect(); -- functional component life cycle hook 
+--- class component - componentDidMount and componentWillUnMount , componentDidUpdate
+
+
+------------------------------------------------------------------------------------
+useReducer and useRef 
+
+useRef - refer the element 
+---------- 
+is built-in React Hook, it take one argument as intialState , and return reference 
+
+let element = useRef(null);
+
+<button ref={element}></button>
+

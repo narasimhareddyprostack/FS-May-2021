@@ -40,6 +40,11 @@ class Navbar extends React.Component {
                   Product Item
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link to="/hook" className="nav-link">
+                  Hook - Ref 
+                </Link>
+              </li>
             </ul>
           </div>
         </nav>
