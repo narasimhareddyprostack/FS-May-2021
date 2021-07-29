@@ -10,7 +10,7 @@ import {Provider} from 'react-redux'
 import Register from './Hooks/Register'
 import Counter from './RComponents/Counter'
 import {store} from './redux/store'
-
+import MessageCard from './Hooks/MessageCard'
 let App = () => {
   return (
     <>
@@ -25,6 +25,7 @@ let App = () => {
           <Route exact path="/counter" component={Counter}/>
           <Route exact path="/product" component={Product}/>
           <Route exact path="/hook" component={Register}/>
+          <Route exact path="/reducer" component={MessageCard}/>
         </Switch>
       </Router>
       </Provider>

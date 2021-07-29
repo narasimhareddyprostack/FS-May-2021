@@ -45,6 +45,11 @@ class Navbar extends React.Component {
                   Hook - Ref 
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link to="/reducer" className="nav-link">
+                  Hook - useReducer
+                </Link>
+              </li>
             </ul>
           </div>
         </nav>
